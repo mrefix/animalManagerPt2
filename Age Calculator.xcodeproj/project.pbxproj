@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30B199F61E40DF9F00807FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B199F51E40DF9F00807FFE /* AppDelegate.swift */; };
+		30B199F81E40DF9F00807FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B199F71E40DF9F00807FFE /* ViewController.swift */; };
+		30B199FB1E40DF9F00807FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B199F91E40DF9F00807FFE /* Main.storyboard */; };
+		30B199FE1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B199FC1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld */; };
+		30B19A001E40DF9F00807FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B199FF1E40DF9F00807FFE /* Assets.xcassets */; };
+		30B19A031E40DF9F00807FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B19A011E40DF9F00807FFE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30B199F21E40DF9F00807FFE /* Age Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B199F51E40DF9F00807FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30B199F71E40DF9F00807FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B199FA1E40DF9F00807FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30B199FD1E40DF9F00807FFE /* Age_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Age_Calculator.xcdatamodel; sourceTree = "<group>"; };
+		30B199FF1E40DF9F00807FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30B19A021E40DF9F00807FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30B19A041E40DF9F00807FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30B199EF1E40DF9F00807FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B199E91E40DF9F00807FFE = {
+			isa = PBXGroup;
+			children = (
+				30B199F41E40DF9F00807FFE /* Age Calculator */,
+				30B199F31E40DF9F00807FFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30B199F31E40DF9F00807FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30B199F21E40DF9F00807FFE /* Age Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30B199F41E40DF9F00807FFE /* Age Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				30B199F51E40DF9F00807FFE /* AppDelegate.swift */,
+				30B199F71E40DF9F00807FFE /* ViewController.swift */,
+				30B199F91E40DF9F00807FFE /* Main.storyboard */,
+				30B199FF1E40DF9F00807FFE /* Assets.xcassets */,
+				30B19A011E40DF9F00807FFE /* LaunchScreen.storyboard */,
+				30B19A041E40DF9F00807FFE /* Info.plist */,
+				30B199FC1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld */,
+			);
+			path = "Age Calculator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30B199F11E40DF9F00807FFE /* Age Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30B19A071E40DF9F00807FFE /* Build configuration list for PBXNativeTarget "Age Calculator" */;
+			buildPhases = (
+				30B199EE1E40DF9F00807FFE /* Sources */,
+				30B199EF1E40DF9F00807FFE /* Frameworks */,
+				30B199F01E40DF9F00807FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Age Calculator";
+			productName = "Age Calculator";
+			productReference = 30B199F21E40DF9F00807FFE /* Age Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30B199EA1E40DF9F00807FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = artiekuhn;
+				TargetAttributes = {
+					30B199F11E40DF9F00807FFE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 87SG6JB7W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 30B199ED1E40DF9F00807FFE /* Build configuration list for PBXProject "Age Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30B199E91E40DF9F00807FFE;
+			productRefGroup = 30B199F31E40DF9F00807FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30B199F11E40DF9F00807FFE /* Age Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30B199F01E40DF9F00807FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B19A031E40DF9F00807FFE /* LaunchScreen.storyboard in Resources */,
+				30B19A001E40DF9F00807FFE /* Assets.xcassets in Resources */,
+				30B199FB1E40DF9F00807FFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30B199EE1E40DF9F00807FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30B199F81E40DF9F00807FFE /* ViewController.swift in Sources */,
+				30B199FE1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld in Sources */,
+				30B199F61E40DF9F00807FFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30B199F91E40DF9F00807FFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B199FA1E40DF9F00807FFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30B19A011E40DF9F00807FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30B19A021E40DF9F00807FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30B19A051E40DF9F00807FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30B19A061E40DF9F00807FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30B19A081E40DF9F00807FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87SG6JB7W5;
+				INFOPLIST_FILE = "Age Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Age-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		30B19A091E40DF9F00807FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87SG6JB7W5;
+				INFOPLIST_FILE = "Age Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.artiekuhn.Age-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30B199ED1E40DF9F00807FFE /* Build configuration list for PBXProject "Age Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B19A051E40DF9F00807FFE /* Debug */,
+				30B19A061E40DF9F00807FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30B19A071E40DF9F00807FFE /* Build configuration list for PBXNativeTarget "Age Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30B19A081E40DF9F00807FFE /* Debug */,
+				30B19A091E40DF9F00807FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30B199FC1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30B199FD1E40DF9F00807FFE /* Age_Calculator.xcdatamodel */,
+			);
+			currentVersion = 30B199FD1E40DF9F00807FFE /* Age_Calculator.xcdatamodel */;
+			path = Age_Calculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30B199EA1E40DF9F00807FFE /* Project object */;
+}
