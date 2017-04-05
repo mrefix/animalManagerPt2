@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        if let animalPickerSegmentFromColdStorage = UserDefaults.standard.object(forKey: "animalSelectedColdStorage") {
+//            // Hey there!  Because the validation doesn't allow anything to get saved unless it's all or nothing,
+//            // I only have to check for the existence of one of the three userDefaults.
+//            let mainStoryBoard = UIStoryboard(name: "main", bundle: nil)
+//            let nextController = UIStoryboardSegue(identifier: "theOnlySegueFromFirstToSecondViewControllerIsThisOneRightHere", source: <#T##UIViewController#>, destination: <#T##UIViewController#>)
+//            nextController.animalSelected = animalPickerSegmentFromColdStorage as! Int
+//            nextController.animalAge = Int(UserDefaults.standard.object(forKey: "animalAgeColdStorage") as? String!)!
+//            nextController.animalName = UserDefaults.standard.object(forKey: "animalNameColdStorage") as? String
+//        }
+
         return true
     }
 

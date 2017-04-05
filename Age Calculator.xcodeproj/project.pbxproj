@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		301EC0061E438D8A0000C907 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301EC0051E438D8A0000C907 /* secondViewController.swift */; };
 		30B199F61E40DF9F00807FFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B199F51E40DF9F00807FFE /* AppDelegate.swift */; };
-		30B199F81E40DF9F00807FFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B199F71E40DF9F00807FFE /* ViewController.swift */; };
+		30B199F81E40DF9F00807FFE /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B199F71E40DF9F00807FFE /* firstViewController.swift */; };
 		30B199FB1E40DF9F00807FFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30B199F91E40DF9F00807FFE /* Main.storyboard */; };
 		30B199FE1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30B199FC1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld */; };
 		30B19A001E40DF9F00807FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30B199FF1E40DF9F00807FFE /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		301EC0051E438D8A0000C907 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		30B199F21E40DF9F00807FFE /* Age Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B199F51E40DF9F00807FFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30B199F71E40DF9F00807FFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30B199F71E40DF9F00807FFE /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 		30B199FA1E40DF9F00807FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30B199FD1E40DF9F00807FFE /* Age_Calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Age_Calculator.xcdatamodel; sourceTree = "<group>"; };
 		30B199FF1E40DF9F00807FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				30B199F51E40DF9F00807FFE /* AppDelegate.swift */,
-				30B199F71E40DF9F00807FFE /* ViewController.swift */,
+				30B199F71E40DF9F00807FFE /* firstViewController.swift */,
+				301EC0051E438D8A0000C907 /* secondViewController.swift */,
 				30B199F91E40DF9F00807FFE /* Main.storyboard */,
 				30B199FF1E40DF9F00807FFE /* Assets.xcassets */,
 				30B19A011E40DF9F00807FFE /* LaunchScreen.storyboard */,
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30B199F81E40DF9F00807FFE /* ViewController.swift in Sources */,
+				301EC0061E438D8A0000C907 /* secondViewController.swift in Sources */,
+				30B199F81E40DF9F00807FFE /* firstViewController.swift in Sources */,
 				30B199FE1E40DF9F00807FFE /* Age_Calculator.xcdatamodeld in Sources */,
 				30B199F61E40DF9F00807FFE /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +310,7 @@
 				30B19A091E40DF9F00807FFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
